@@ -10,3 +10,14 @@ GameShield is a Chrome extension designed to help users stay focused by blocking
 - **Banned Connections**: Prevents access to known game-related domains.
 - **Allowlist Support**: Ensures that essential non-gaming websites remain accessible.
 - **Custom Block Page**: Redirects users to a block page explaining why access was denied.
+
+## Installation
+1. Download the repository as a ZIP file or clone it using Git:
+   ```bash
+   git clone https://github.com/your-username/GameShield.git
+   ```
+2. Open Chrome and navigate to chrome://extensions/.
+3. Enable Developer Mode (toggle in the top right corner).
+4. Click Load unpacked and select the GameShield project folder.
+
+## How It Works
