@@ -1,0 +1,14 @@
+{
+  "sequences": [
+    {
+      "id": "wasdArrows",
+      "keys": ["w", "a", "s", "d", "ArrowUp", "ArrowDown", "ArrowLeft", "ArrowRight"],
+      "threshold": 0.5
+    },
+    {
+      "id": "ijklArrows",
+      "keys": ["i", "j", "k", "l", "ArrowUp", "ArrowDown", "ArrowLeft", "ArrowRight"],
+      "threshold": 0.5
+    }
+  ]
+}

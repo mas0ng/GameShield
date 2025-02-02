@@ -1,0 +1,53 @@
+{
+  "name": "Game Blocker",
+  "version": "2",
+  "manifest_version": 3,
+  "description": "Automatically blocks pages if suspicious gaming key patterns are detected.",
+  "permissions": [
+    "storage",
+    "scripting",
+    "tabs"
+  ],
+  "host_permissions": [
+    "<all_urls>",
+    "*://*.poki.com/*",
+    "*://*.games.poki.com/*",
+    "*://*.unity3d.com/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["contentScript.js"],
+      "all_frames": true,
+      "run_at": "document_start"
+    }
+  ],
+  "web_accessible_resources": [
+  
+    {
+      "resources": [
+        "sequences.json",
+        "allowlist.json",
+        "blockimmediatelylist.json",
+        "blocked.html",
+		"pageScript.js",
+		"bannedConnections.json",
+		"bannedWords.json",
+		"images/blocked.png",
+		"blocked.js"
+		
+      ],
+      "matches": ["<all_urls>"]
+    }
+  ],
+  "action": {
+    "default_title": "Game Blocker Extension"
+  }
+  "icons": {
+    "16": "icons/icon-16.png",
+    "48": "icons/icon-48.png",
+    "128": "icons/icon-128.png"
+}
