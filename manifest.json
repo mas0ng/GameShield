@@ -2,7 +2,7 @@
   "name": "GameSheild",
   "version": "2",
   "manifest_version": 3,
-  "description": "Helps users stay focused by blocking websites that contain games.",
+  "description": "Automatically blocks pages if suspicious gaming key patterns are detected.",
   "permissions": [
     "storage",
     "scripting",
@@ -46,8 +46,4 @@
   "action": {
     "default_title": "Game Blocker Extension"
   }
-  "icons": {
-    "16": "icons/icon-16.png",
-    "48": "icons/icon-48.png",
-    "128": "icons/icon-128.png"
 }
