@@ -14,7 +14,7 @@ GameShield is a Chrome extension designed to help users stay focused by blocking
 ## Installation
 1. Download the repository as a ZIP file or clone it using Git:
    ```bash
-   git clone https://github.com/your-username/GameShield.git
+   git clone https://github.com/mas0ng/GameShield.git
    ```
 2. Open Chrome and navigate to chrome://extensions/.
 3. Enable Developer Mode (toggle in the top right corner).
